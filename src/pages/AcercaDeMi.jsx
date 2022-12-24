@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { images } from '../constants'
+
 export const AcercaDeMi = () => {
   return (
     <div className='acercademi'>
@@ -20,7 +22,7 @@ export const AcercaDeMi = () => {
           </div>
 
           <div className="acercademi__container-content_img">
-            <img src="/src/assets/amorchitoo.png" alt="Foto personal" />
+            <img src={ images.profilePic } alt="Foto personal" />
           </div>
         </div>
 

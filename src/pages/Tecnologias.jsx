@@ -1,4 +1,5 @@
 import React from 'react'
+import { images } from '../constants'
 
 export const Tecnologias = () => {
   return (
@@ -20,22 +21,22 @@ export const Tecnologias = () => {
 
           <div className="tecnologias__container-content_images">
             <div className="tecnologias__container-content_images-img">
-              <img src="/src/assets/iconos_html.png" alt="javascript image" />
+              <img src={ images.htmlIcon } alt="html image" />
             </div>
             <div className="tecnologias__container-content_images-img">
-              <img src="/src/assets/iconos_css.png" alt="javascript image" />
+              <img src={ images.cssIcon } alt="css image" />
             </div>
             <div className="tecnologias__container-content_images-img">
-              <img src="/src/assets/iconos_js.png" alt="javascript image" />
+              <img src={ images.jsIcon } alt="javascript image" />
             </div>
             <div className="tecnologias__container-content_images-img">
-              <img src="/src/assets/iconos_react-js.png" alt="javascript image" />
+              <img src={ images.reactIcon } alt="react image" />
             </div>
             <div className="tecnologias__container-content_images-img">
-              <img src="/src/assets/iconos_node-js.png" alt="javascript image" />
+              <img src={ images.nodeIcon } alt="node image" />
             </div>
             <div className="tecnologias__container-content_images-img">
-              <img src="/src/assets/iconos_tailwind-css.png" alt="javascript image" />
+              <img src={ images.tailwindIcon } alt="tailwind image" />
             </div>
           </div>
         </div>
